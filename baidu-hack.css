@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "Microsoft Yahei","Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+
+.header-left{
+   float: right;
+    margin-right: 12px;
+    margin-top: 20px;
+    width: 415px;
+
+}
+.header-left-a a{
+    font-size: 13px;
+    margin-right: 15px;
+    color: #000000;
+}
+.header-left-a .a:hover{
+    color: #0000ff;
+}
+.header-left-a .more{
+    background-color: #3388ff;
+    padding: 4px 2px;
+    color: white;
+    text-decoration: none;
+}
+.header-left-a .more:hover{
+    color: #000000;
+    background-color: white;
+}
+
+
+
+
+
+.content-picture{
+    margin-top: 60px;
+    +margin-top: 30px;
+    text-align: center;
+    clear: both;
+}
+
+
+.content{
+    min-width: 700px;
+    height: 100px;
+    margin: 0 auto;
+}
+.content-form{
+    position: absolute;
+    left: 50%;
+    margin-left: -319px;
+    margin-top: 15px;
+    min-width: 644px;
+}
+.content-form .text{
+    float: left;
+    width: 540px;
+    height: 35px;
+    border: 1px solid #a9a9a9;
+    font-size: 20px;
+    padding-left: 4px;
+    line-height: 35px \9;
+}
+
+.content-form .button{
+    display: inline-block;
+    width: 98px;
+    height: 37px;
+    background-color: #3385ff;
+    border: 0px;
+    color: #fff;
+    letter-spacing: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    +margin-left: -1px;
+    +height: 37px;
+    +border:0px;
+    box-shadow: 1px 1px 1px #ccc;
+    _margin-left:-4px;
+}
+
+
+.text:hover{
+    border: 1px solid #808080;
+}
+.button:hover{
+    background-color: #317ef3;
+}
+[autofocus],[placeholder]{
+    behavior: url(autofocus.htc);
+}
+
+.text:focus{
+    outline: none;
+    border: 1px solid #3385ff;
+}
+
+
+
+
+
+
+.footer{
+    margin-top: 330px;
+}
+.footer .footer-a{
+    text-align: center;
+    font-size: 12px;
+}
+.footer .footer-a a{
+    padding-right: 15px;
+    color: blue;
+}
+.foot-copyright{
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    margin-top: 11px;
+}
+.foot-copyright .copyright a{
+    color: gray;
+}
